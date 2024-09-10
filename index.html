@@ -3,13 +3,271 @@
 <head>
     <!-- meta tags, links to css, etc. -->
     <title>CSS Self-Portrait</title>
+
+   
+    <style>
+        div{
+            position: absolute;
+         }
+        .skin{
+            background-color: #905143;
+        }
+        .noseSkin{
+            background-color: #7F4336;
+        }
+        .blush{
+            background-color: #A85D5D;
+        }
+        .glasses{
+            background-color: #EF55CD;
+            opacity: 50%;
+        }
+        .earring{
+            background-color: #D9D9D9;
+        }
+        .clip{
+            background-color: #F9B4EA;
+        }
+        .hair{
+            background-color: #210303;
+        }
+    
+        .face{
+            width: 551px;
+            height: 699px;
+            left: 406px;
+            top: 151px;
+            border-radius: 50%;
+
+        }
+        .leftBlush{
+            width: 171px;
+            height: 237px;
+            left: 420px;
+            top: 455px;
+            opacity: 30%;
+            border-radius: 50%;
+
+        }
+        .rightBlush{
+            width: 171px;
+            height: 237px;
+            left: 770px;
+            top: 455px;
+            opacity: 30%;
+            border-radius: 50%;
+        }
+        .leftEarring{
+            width: 31px;
+            height: 29px;
+            left: 350px;
+            top: 594px;
+            border-radius: 50%;
+        }
+        .leftEar{
+            width: 131px;
+            height: 212px;
+            left: 299px;
+            top: 394px;
+    
+            border-radius: 50%;
+        }
+        .rightEarring{
+            width: 31px;
+            height: 29px;
+            left: 997px;
+            top: 594px;
+            border-radius: 50%;
+        }
+        .rightEar{
+            width: 131px;
+            height: 212px;
+            left: 945px;
+            top: 394px;
+            border-radius: 50%;
+        }
+        .nose{
+            width: 180px;
+            height: 91px;
+            left: 590px;
+            top: 531px;
+            border-radius: 50%;
+        }
+        .leftheart1{
+            position: absolute;
+            top: 432px;
+            left: 450px;
+            width: 150px;
+            height: 150px;
+            transform: rotate(45deg);
+            transform-origin: center;
+            border-bottom-right-radius: 25%;
+            background-color: #EF55CD;
+            border: 10px, solid, #F9B4EA;
+
+        }
+        .leftheart1::before, .leftheart1::after{
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            
+            border-radius: 50%/70%;
+            background-color: #EF55CD;
+            
+        }
+        .leftheart1::before{
+            left: -85px;
+        }
+        .leftheart1::after{
+            top: -85px;
+        }
+        .rightheart1{
+            position: absolute;
+            top: 432px;
+            left: 751px;
+            width: 150px;
+            height: 150px;
+            transform: rotate(45deg);
+            transform-origin: center;
+            border-bottom-right-radius: 25%;
+            background-color: #EF55CD;
+            border: 10px, solid, #F9B4EA;
+
+        }
+        .rightheart1::before, .rightheart1::after{
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            
+            border-radius: 50%/70%;
+            background-color: #EF55CD;
+            
+            
+        }
+        .rightheart1::before{
+            left: -85px;
+        }
+        .rightheart1::after{
+            top: -85px;
+        }
+        .leftClip{
+            width: 28px;
+            height: 33px;
+            left: 285px;
+            top: 201px;
+            border-radius: 50%;
+        }
+        .rightClip{
+            width: 28px;
+            height: 33px;
+            left: 1053px;
+            top: 201px;
+            border-radius: 50%;
+        }
+        .hairBase{
+            width: 847.94px;
+            height: 778.09px;
+            left: 260px;
+            top: 151px;
+            border-bottom-left-radius: 25%;
+            border-bottom-right-radius: 25%;
+            border-top-left-radius: 20%;
+            border-top-right-radius: 20%;
+
+        }
+        .leftBang{
+            width: 243px;
+            height: 181px;
+            left: 440px;
+            top: 151px;
+            border-bottom-right-radius: 400rem;
+
+        }
+        .rightBang{
+            width: 243px;
+            height: 181px;
+            left: 680px;
+            top: 151px;
+            border-bottom-left-radius: 400rem;
+
+        }
+        .leftPuff{
+            width: 190px;
+            height: 325px;
+            left: 171px;
+            top: 208px;
+            border-radius: 50%;
+        }
+        .leftPuff2{
+            width: 190px;
+            height: 325px;
+            left: 171px;
+            top: 508px;
+            border-radius: 50%;
+        }
+        .rightPuff{
+            width: 190px;
+            height: 325px;
+            left: 1000px;
+            top: 208px;
+            border-radius: 50%;
+
+        }
+        .rightPuff2{
+            width: 190px;
+            height: 325px;
+            left: 1000px;
+            top: 508px;
+            border-radius: 50%;
+
+        }
+        .rim{
+            width: 27px;
+            height: 8px;
+            left: 672px;
+            top: 447px;
+            background-color: #F9B4EA;
+
+        }
+
+
+        </style>
+
 </head>
 <body>
 
     <!-- visible content goes here -->
 	<h1>CSS Self-Portrait</h1>
 	<p>See README.md for info</p>
+    <h3>
+        <a href="https://www.figma.com/proto/A4LdUDxkUZ15LJhvjmfT8t/Self-Portrait?node-id=1-2&t=AsnB3lwfwjuoDoFh-1">Figma</a>
+    </h3>
 
+
+    <div class ="hairBase hair"></div>
+    <div class ="face skin"></div>
+    <div class ="leftBang hair"></div>
+    <div class ="rightBang hair"></div>
+    <div class ="leftPuff hair"></div>
+    <div class ="leftPuff2 hair"></div>
+    <div class ="rightPuff hair"></div>
+    <div class ="rightPuff2 hair"></div>
+    <div class ="leftEar skin"></div>
+    <div class ="rightEar skin"></div>
+    <div class ="nose noseSkin"></div>
+    <div class ="leftheart1 glasses"></div>
+    <div class ="rightheart1 glasses"></div>
+    <div class ="rim"></div>
+    <div class ="leftBlush blush"></div>
+    <div class ="rightBlush blush"></div>
+    <div class ="leftEarring earring"></div>
+    <div class ="rightEarring earring"></div>
+    <div class ="leftClip clip"></div>
+    <div class ="rightClip clip"></div>
+    
+    
     <!-- load javascript after the page elements render -->
     <script src="assets/js/main.js"></script>
 </body>
